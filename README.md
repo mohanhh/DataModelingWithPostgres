@@ -1,6 +1,6 @@
 # Fact Table
 ## songplays - 
-###Holds Records from log data associated with song plays i.e. records with page NextSong
+### Holds Records from log data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 As the log file has only song's title and the artist name, song_id and artist_id are extracted 
 by comparing song's title, it's duration in song database and artist name in artist database.
@@ -12,8 +12,8 @@ songplay_id is set as auto increment field in songplay table.
 Added constraint to overwrite user's first name, last name, gender and level when we encounter the user id again in log 
 file. Also added constraint to make user_id not null. 
 
-##songs - songs in music database
-##song_id, title, artist_id, year, duration
+## songs - songs in music database
+## song_id, title, artist_id, year, duration
 This table is created from song data set. Added constraint to make song_id Primary key which means it is unique and not 
 null.
  
