@@ -1,5 +1,5 @@
 # Fact Table
-## songplays - 
+## songplays
 ### Holds Records from log data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 As the log file has only song's title and the artist name, song_id and artist_id are extracted 
