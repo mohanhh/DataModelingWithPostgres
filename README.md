@@ -1,3 +1,5 @@
+# This repository shows how one can use popular opensource database Postgres to build a Data Warehouse. 
+
 # Fact Table
 ## songplays
 ### Holds Records from log data associated with song plays i.e. records with page NextSong
