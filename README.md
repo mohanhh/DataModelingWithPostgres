@@ -1,4 +1,4 @@
-# This repository shows how one can use popular opensource database Postgres to build a Data Warehouse. 
+# This repository shows how one can use popular open source database Postgres to build a Data Warehouse. 
 
 # Fact Table
 ## songplays
